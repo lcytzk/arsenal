@@ -2,7 +2,7 @@ import sys
 
 from pypdf import PdfWriter
 
-from list_files import list_files
+from utils.list_files import list_files
 
 
 def merge(path, target_fname):
